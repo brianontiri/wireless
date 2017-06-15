@@ -16,6 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+    apiKey: "AIzaSyBw_IoUFoXHPwTpmQpcOz5ZEwi6Cm3bxlg",
+    authDomain: "wireless-e770f.firebaseapp.com",
+    databaseURL: "https://wireless-e770f.firebaseio.com",
+    storageBucket: "wireless-e770f.appspot.com",
+  },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
