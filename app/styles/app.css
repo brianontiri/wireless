@@ -2,5 +2,18 @@
   text-align: center;
   font-variant: small-caps;
   margin-top: 30px;
-  background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiQhP3ksL_UAhVKbxQKHZ5IBPkQjRwIBw&url=https%3A%2F%2Fwww.walmart.com%2Fip%2FBeats-by-Dr.-Dre-Solo2-Wireless-On-Ear-Headphones%2F45110312&psig=AFQjCNHR_vHPxQPSBTjw0xv8Jhclvt-oMw&ust=1497597522082904");
+  /*background-color: black;*/
+}
+.btn{
+  shape-inside: outside-shape;
+  border: block;
+  height: 50px;
+  width: 75px;
+  text-align: center;
+  font-size: 30px;
+}
+.btn-hover{
+  color:green;
+  height: 400px;
+  width: 400px;
 }

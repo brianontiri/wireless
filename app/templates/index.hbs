@@ -1,7 +1,19 @@
 {{outlet}}
 <h1>Beats Online</h1>
-<ul>
-  {{#each model as |product|}}
-    {{product-tile product=product}}
-  {{/each}}
-</ul>
+<div class="col-md-12">
+  <div class="row">
+    <div class="home">
+      <div class="col-md-6">
+
+        <ul>
+          {{#each model as |product|}}
+            {{product-tile product=product}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <button {{action "click"}} class="btn btn-success"     name="button">open</button>
+    </div>
+  </div>
+</div>
