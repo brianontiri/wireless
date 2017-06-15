@@ -1,1 +1,7 @@
 {{outlet}}
+<h1>Beats Online</h1>
+<ul>
+  {{#each model as product |product|}}
+    {{product-tile product=product}}
+  {{/each}}
+</ul>
